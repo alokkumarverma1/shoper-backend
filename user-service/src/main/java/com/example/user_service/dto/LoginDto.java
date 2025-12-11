@@ -1,20 +1,15 @@
 package com.example.user_service.dto;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
-
-import java.util.List;
+import lombok.Setter;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
-public class Register {
-    private String name;
-    private Long number;
+@Getter
+@Setter
+public class LoginDto {
     private String email;
     private String password;
-    private int age;
-
-    List<Rolesdto> rolesdtoList;
 }

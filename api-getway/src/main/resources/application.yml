@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: api-getway
+    name: api-gateway
 
   cloud:
     gateway:
@@ -12,14 +12,13 @@ spring:
           enabled: true
           lower-case-service-id: true
 
-
       routes:
         - id: user-service
           uri: lb://USER-SERVICE
           predicates:
-            - Path=/user/test
+            - Path=/user/**
 
-      # Global CORS configuration
+      # GLOBAL CORS (only this inside globalcors)
       globalcors:
         corsConfigurations:
           '[/**]':
@@ -30,5 +29,10 @@ spring:
               - POST
               - PUT
               - DELETE
+              - OPTIONS
             allowedHeaders: "*"
             allowCredentials: true
+
+      # ❗ IMPORTANT → default-filters gateway root par hona chahiye
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
