@@ -6,10 +6,10 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
-public class Register {
+public class RegisterDto {
     private String name;
     private Long number;
     private String email;

@@ -4,17 +4,16 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 import java.util.HashSet;
 import java.util.Set;
 
 @Entity
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
-@Table(name = "userDetails")
-public class UserDetails {
+@Table(name = "register")
+public class Register {
     @GeneratedValue( strategy = GenerationType.IDENTITY)
     @Id
     private Long id;

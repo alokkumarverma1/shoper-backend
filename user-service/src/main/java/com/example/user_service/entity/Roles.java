@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -20,5 +19,5 @@ public class Roles {
     private String rolename;
 
 @ManyToMany(mappedBy = "roles")
-    private Set<UserDetails> userDetailsSet = new HashSet<>();
+    private Set<Register> registers = new HashSet<>();
 }
