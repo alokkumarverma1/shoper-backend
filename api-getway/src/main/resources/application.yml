@@ -18,6 +18,10 @@ spring:
           predicates:
             - Path=/user/**
 
+        - id: shop-service
+          uri: lb://SHOP-SERVICE
+          predicates:
+            - Path=/shop/**
 
       globalcors:
         corsConfigurations:
@@ -30,9 +34,9 @@ spring:
               - PUT
               - DELETE
               - OPTIONS
-            allowedHeaders: "*"
+            allowedHeaders:
+              - "*"
             allowCredentials: true
 
-      # ❗ IMPORTANT → default-filters gateway root par hona chahiye
       default-filters:
         - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin

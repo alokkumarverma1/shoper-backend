@@ -8,19 +8,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-getway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-getway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-getway/src/main/java/com/example/api_getway/configratoin/MainConfigration.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-getway/src/main/java/com/example/api_getway/configratoin/CrossConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-getway/src/main/java/com/example/api_getway/configratoin/CrossConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-getway/src/main/java/com/example/api_getway/configratoin/CrossConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-getway/src/main/java/com/example/api_getway/security/MainSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-getway/src/main/java/com/example/api_getway/security/MainSecurity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-getway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-getway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/dto/LoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/dto/LoginDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/dto/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/dto/RegisterDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/dto/Rolesdto.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/dto/Rolesdto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/entity/Roles.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/entity/Roles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/entity/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/entity/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/repo/UserDetailrepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/repo/Registerrepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/src/main/java/com/example/shop_service/ShopServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/src/main/java/com/example/shop_service/ShopServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/dto/RegisterDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/dto/RegisterDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/security/JwtVerify.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/security/MainSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/security/MainSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/servcie/EmailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/servcie/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/servcie/MainService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +65,7 @@
   &quot;keyToString&quot;: {
     &quot;Application.ApiGetwayApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.ServiceRegistryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShopServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.UserServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.All in service-registry.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -80,7 +77,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.UserServiceApplication">
+  <component name="RunManager" selected="Application.ApiGetwayApplication">
     <configuration name="ApiGetwayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.api_getway.ApiGetwayApplication" />
       <module name="api-getway" />
@@ -100,6 +97,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.service_registry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.shop_service.ShopServiceApplication" />
+      <module name="shop-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.shop_service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,9 +140,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserServiceApplication" />
-        <item itemvalue="Application.ServiceRegistryApplication" />
         <item itemvalue="Application.ApiGetwayApplication" />
+        <item itemvalue="Application.UserServiceApplication" />
+        <item itemvalue="Application.ShopServiceApplication" />
+        <item itemvalue="Application.ServiceRegistryApplication" />
         <item itemvalue="JUnit.All in service-registry" />
       </list>
     </recent_temporary>

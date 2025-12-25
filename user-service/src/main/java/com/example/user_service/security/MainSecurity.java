@@ -26,7 +26,7 @@ public class MainSecurity {
         httpSecurity.csrf(csrf -> csrf.disable())
                 .cors(cors -> {})
                 .authorizeHttpRequests( auth -> auth
-                .requestMatchers("/user/register","/user/login").permitAll()
+                .requestMatchers("/user/register","/user/login","/user/userDetailsShop").permitAll()
                                 .anyRequest().authenticated()
                 )
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
